@@ -6,6 +6,6 @@ const AdminNav = () => {
       <h1>Admin Nav</h1>
     </div>
   );
-}
+};
 
 export default AdminNav;
