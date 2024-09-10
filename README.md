@@ -12,28 +12,41 @@
 │   │   |    └── restaurant.png
 │   |   ├── components
 │   │   │     ├── admin
-│   │   │     |     └── admin.jsx
+│   │   │     |     └── AdminNav.jsx
 │   │   │     ├── chef
-│   │   │     |     └── chef.jsx
+│   │   │     |     └── ChefNav.jsx
 │   │   │     ├── common
-│   │   │     |     └── common.jsx
+│   │   │     |     ├── CheckAuth.jsx
+│   │   │     |     ├── Footer.jsx
+│   │   │     |     ├── Gallery.jsx
+│   │   │     |     ├── Header.jsx
+│   │   │     |     └── Profile.jsx
 │   │   |     ├── ui
+│   │   │     |   ├── button.jsx
 │   │   │     |   ├── input.jsx
 │   │   │     |   ├── label.jsx
-│   │   │     |   ├── text.jsx
-|   |   |     ├── user
-|   |   |     |     └── user.jsx
+│   │   │     |   └── text.jsx
+|   |   |     └──user
+|   |   |          └── UserHeader.jsx
 |   |   ├── lib
 |   |   |    └── utils.js
 |   |   ├── pages
 |   |   |    ├── admin
-|   |   |    |    └── admin.jsx
+|   |   |    |    └── AdminDashboard.jsx
+|   |   |    ├── auth
+|   |   |    |    ├── Login.jsx
+|   |   |    |    └── Registration.jsx
 |   |   |    ├── chef
-|   |   |    |    └── chef.jsx
+|   |   |    |    └── ChefOrders.jsx
 |   |   |    ├── common
-|   |   |    |    └── common.jsx
+|   |   |    |     ├── Home.jsx
+|   |   |    |     |── NotFoundPage.jsx
+|   |   |    |     └── PaymentGateway.jsx 
 |   |   |    └── user
-|   |   |         └── user.jsx
+|   |   |         |── UserCheckOut.jsx
+|   |   |         |── UserHome.jsx
+|   |   |         |── UserItem.jsx
+|   |   |         └── UserMenu.jsx
 |   |   ├── App.css
 |   |   ├── App.jsx
 |   |   ├── index.css
