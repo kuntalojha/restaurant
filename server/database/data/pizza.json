@@ -1,0 +1,31 @@
+{
+  "_id": "ObjectId('5f9a7b0b1f6e9f2c3c3b3b3b')",
+  "category": "Simply Veg Pizza",
+  "sizes": ["Regular", "Medium", "Large"],
+  "items": [
+    {
+      "name": "Margherita Pizza",
+      "price": {
+        "Regular": 120,
+        "Medium": 230,
+        "Large": 350
+      }
+    },
+    {
+      "name": "Cheese and Corn Pizza",
+      "price": {
+        "Regular": 120,
+        "Medium": 230,
+        "Large": 350
+      }
+    },
+    {
+      "name": "Cheese and Tomato Pizza",
+      "price": {
+        "Regular": 120,
+        "Medium": 230,
+        "Large": 350
+      }
+    }
+  ]
+}

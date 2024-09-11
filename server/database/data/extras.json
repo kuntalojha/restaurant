@@ -1,0 +1,44 @@
+[
+  {
+    "_id": "ObjectId('5f9a7b0b1f6e9f2c3c3b3b3j')",
+    "category": "Your Base",
+    "items": [
+      {
+        "name": "Cheese Burst",
+        "price": {
+          "Regular": 70,
+          "Medium": 100,
+          "Large": 150
+        }
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('5f9a7b0b1f6e9f2c3c3u3b3j')",
+    "category": "Pizza Mania Combos",
+    "items": [
+      {
+        "name": "Veg Single Topping Pizza Combo",
+        "description": "Set of 4",
+        "items": [
+          "Onion Pizza",
+          "Capsicum Pizza",
+          "Tomato Pizza",
+          "Golden Corn Pizza"
+        ],
+        "price": 370
+      },
+      {
+        "name": "Veg Double Topping Pizza Combo",
+        "description": "Set of 4",
+        "items": [
+          "Onion and Capsicum Pizza",
+          "Onion and Paneer Pizza",
+          "Tomato and Golden Corn Pizza",
+          "Jalapeno and Mushroom Pizza"
+        ],
+        "price": 370
+      }
+    ]
+  }
+]

@@ -1,0 +1,48 @@
+[
+  {
+    "_id": "ObjectId('5f9a7b0b1f6e9f2c3c3b3b3b')",
+    "category": "Pizza Mania (Single Topping)",
+    "size": "7 inches",
+    "items": [
+      {
+        "name": "Onion Pizza",
+        "price": 65
+      },
+      {
+        "name": "Capsicum Pizza",
+        "price": 75
+      },
+      {
+        "name": "Tomato Pizza",
+        "price": 65
+      },
+      {
+        "name": "Golden Corn Pizza",
+        "price": 75
+      }
+    ]
+  },
+  {
+    "_id": "ObjectId('5f9b7b0b4f6e9f2c3c3b3b3b')",
+    "category": "Pizza Mania (Double Topping)",
+    "size": "7 inches",
+    "items": [
+      {
+        "name": "Onion and Capsicum Pizza",
+        "price": 90
+      },
+      {
+        "name": "Onion and Paneer Pizza",
+        "price": 100
+      },
+      {
+        "name": "Tomato and Corn Pizza",
+        "price": 90
+      },
+      {
+        "name": "Jalapeno and Mushroom Pizza",
+        "price": 100
+      }
+    ]
+  }
+]

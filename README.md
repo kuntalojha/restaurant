@@ -41,7 +41,7 @@
 |   |   |    ├── common
 |   |   |    |     ├── Home.jsx
 |   |   |    |     |── NotFoundPage.jsx
-|   |   |    |     └── PaymentGateway.jsx 
+|   |   |    |     └── PaymentGateway.jsx
 |   |   |    └── user
 |   |   |         |── UserCheckOut.jsx
 |   |   |         |── UserHome.jsx
@@ -65,7 +65,28 @@
 ├── documentation
 |   └── restaurant.md
 |
-└── server
-  └── index.js
+├── server
+|   ├── controllers
+|   │     ├── menu
+|   │     │     ├── controller.RestaurantMenu.js
+|   │     └── order
+|   │         ├── user
+|   │              └── controller.RestaurantOrder.js
+|   ├── database
+|   │     ├── data
+|   │     |   └── pizzas.json
+|   |     └── connectionDB.js
+|   ├── modules
+|   |     ├── manu
+|   |     |   └── model.RestaurantMenu.js
+|   |     └── order
+|   |         └── user
+|   |              └── model.UserOrders.js
+|   ├── routes
+|   │     ├── menu
+|   │     │     └── router.RestaurantMenu.js
+|   │     └── order
+|   │.env
+|   └── server.js
 
 ```
