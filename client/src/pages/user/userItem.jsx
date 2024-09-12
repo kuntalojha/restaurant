@@ -1,11 +1,16 @@
 import React from 'react';
-
+import Footer from '@/components/common/Footer';
+import Header from '@/components/common/Header';
 const UserItem = () => {
   return (
     <div>
-      <h1>User Item</h1>
+      <Header />
+      <div className='h-screen bg-slate-300'>
+        <h1>User Item</h1>
+      </div>
+      <Footer />
     </div>
   );
-}
+};
 
 export default UserItem;
