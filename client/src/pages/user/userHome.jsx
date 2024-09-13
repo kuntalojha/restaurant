@@ -7,7 +7,7 @@ const UserHome = () => {
   return (
     <div>
       <Header />
-      <div className='h-screen bg-slate-300'>
+      <div className='h-screen'>
         <div>
           <img src='' alt='' />
         </div>

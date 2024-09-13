@@ -6,7 +6,7 @@ const Gallery = () => {
   return (
     <div>
       <UserHeader />
-      <div className='h-screen bg-slate-300'>
+      <div className='h-screen'>
         <h1>Gallery</h1>
       </div>
       <Footer />

@@ -6,7 +6,7 @@ const UserCheckOut = () => {
   return (
     <div>
       <UserHeader />
-      <div className='h-screen bg-slate-300'>
+      <div className='h-screen'>
         <h1>User CheckOut</h1>
       </div>
       <Footer />

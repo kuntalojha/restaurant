@@ -6,7 +6,7 @@ const Login = () => {
   return (
     <div>
       <Header />
-      <div className='h-screen bg-slate-300'>
+      <div className='h-screen'>
         <h1>Login</h1>
       </div>
       <Footer />

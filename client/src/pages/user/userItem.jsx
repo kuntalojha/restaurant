@@ -5,7 +5,7 @@ const UserItem = () => {
   return (
     <div>
       <Header />
-      <div className='h-screen bg-slate-300'>
+      <div className='h-screen'>
         <h1>User Item</h1>
       </div>
       <Footer />
