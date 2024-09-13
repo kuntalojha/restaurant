@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button, buttonVariants } from '@/components/ui/button';
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 import { ModeToggle } from './mode-toggle';
@@ -22,9 +23,13 @@ const Header = () => {
         </div>
 
         {/* Right section (Card) */}
-        <div className='flex items-center'>
+        <Button variant='outline' asChild className='flex items-center'>
           <NavLink to='/login'>Login</NavLink>
-        </div>
+        </Button>
+
+        {/* <div className='flex items-center'>
+          <NavLink to='/login'>Login</NavLink>
+        </div> */}
         {/* Dark Mode and Light Mode */}
         <div className='flex items-center px-4'>
           <ModeToggle />
