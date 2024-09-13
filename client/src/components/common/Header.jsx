@@ -1,12 +1,12 @@
 import React from 'react';
-import { Button, buttonVariants } from '@/components/ui/button';
+import { Button} from '@/components/ui/button';
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 import { ModeToggle } from './mode-toggle';
 
 const Header = () => {
   return (
-    <div className='text-bold text-xl  bg-slate-300 dark:bg-slate-600'>
+    <div className='text-bold text-xl  bg-slate-300 dark:bg-slate-600 sticky top-0 z-50'>
       <div className='flex items-center justify-between text-center h-20 px-4'>
         {/* Left section (Logo) */}
         <div className='flex items-center'>
