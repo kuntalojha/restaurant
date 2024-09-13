@@ -11,7 +11,7 @@ const UserHome = () => {
     <div>
       <Header />
       {/* Hero Section */}
-      <div className='h-max overflow-hidden'>
+      <div className='h-max overflow-hidden lg:ml-5 ml-0'>
         <div className='grid  max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 lg:grid-cols-2'>
           <div>
             <h1 className='scroll-m-20 text-6xl font-extrabold tracking-tight lg:text-5xl'>
@@ -36,7 +36,8 @@ const UserHome = () => {
       </div>
 
       {/* Gallery Section */}
-      <hr className='border-t-2 py-10 text-slate-500' />
+      <hr className='border-t-2 border-gray-300  mx-auto ' />
+
       <Gallery />
       {/* Footer Section */}
       <Footer />
