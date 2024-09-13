@@ -36,7 +36,7 @@ const UserHome = () => {
       </div>
 
       {/* Gallery Section */}
-      <hr className='text-slate-500' />
+      <hr className='border-t-2 py-10 text-slate-500' />
       <Gallery />
       {/* Footer Section */}
       <Footer />

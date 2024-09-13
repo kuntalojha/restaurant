@@ -7,15 +7,23 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 import img from '../../assets/hero.png';
+import { Button } from '../ui/button';
+import { NavLink } from 'react-router-dom';
 
 const Gallery = () => {
   return (
     <div id='gallery' className='h-screen flex items-center justify-center'>
       <div className='relative w-full max-w-4xl'>
-        <h1 className='scroll-m-20 text-6xl font-extrabold tracking-tight lg:text-5xl text-right'>
+        <h1 className='scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl text-right m-2'>
           GALLERY
         </h1>
 
+        <NavLink
+          className=' text-4xl font-extrabold tracking-tight lg:text-5xl text-left m-2 p-10 hover:underline hover:text-yellow-500'
+          to={'/menu'}
+        >
+          MENU
+        </NavLink>
         <Carousel
           opts={{
             align: 'start',
