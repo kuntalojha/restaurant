@@ -5,7 +5,7 @@ import { ModeToggle } from './mode-toggle';
 
 const Header = () => {
   return (
-    <div className='text-bold text-xl'>
+    <div className='text-bold text-xl  bg-slate-300 dark:bg-slate-600'>
       <div className='flex items-center justify-between text-center h-20 px-4'>
         {/* Left section (Logo) */}
         <div className='flex items-center'>
