@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button} from '@/components/ui/button';
+import { Button } from '@/components/ui/button';
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/logo.png';
 import { ModeToggle } from './mode-toggle';
@@ -17,8 +17,22 @@ const Header = () => {
 
         {/* Center section (Nav Links) */}
         <div className='flex items-center space-x-4 flex-grow justify-center'>
-          <NavLink to='/'>Home</NavLink>
-          <NavLink to='/menu'>Menu</NavLink>
+          <NavLink
+            to='/'
+            className={({ isActive }) =>
+              isActive ? 'text-yellow-500' : 'text-white'
+            }
+          >
+            Home
+          </NavLink>
+          <NavLink
+            to='/menu'
+            className={({ isActive }) =>
+              isActive ? 'text-yellow-500' : 'text-white'
+            }
+          >
+            Menu
+          </NavLink>
           <NavLink to='/gallery'>Gallery</NavLink>
         </div>
 

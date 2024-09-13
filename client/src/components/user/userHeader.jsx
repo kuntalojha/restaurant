@@ -18,8 +18,22 @@ const UserHeader = () => {
         {/* Center section (Nav Links) */}
         <div className='flex items-center space-x-4 flex-grow justify-center'>
           <NavLink to='/'>Home</NavLink>
-          <NavLink to='/menu'>Menu</NavLink>
-          <NavLink to='/gallery'>Gallery</NavLink>
+          <NavLink
+            to='/menu'
+            className={({ isActive }) =>
+              isActive ? 'text-yellow-500' : 'text-white'
+            }
+          >
+            Menu
+          </NavLink>
+          <NavLink
+            to='/gallery'
+            className={({ isActive }) =>
+              isActive ? 'text-yellow-500' : 'text-white'
+            }
+          >
+            Gallery
+          </NavLink>
         </div>
 
         {/* Right section (Card) */}

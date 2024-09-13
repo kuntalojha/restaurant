@@ -5,10 +5,12 @@ import { Button } from '@/components/ui/button';
 import Header from '@/components/common/Header';
 import Footer from '@/components/common/Footer';
 import HeroImg from '../../assets/hero.png';
+import Gallery from '@/components/common/Gallery';
 const UserHome = () => {
   return (
     <div>
       <Header />
+      {/* Hero Section */}
       <div className='h-max overflow-hidden'>
         <div className='grid  max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 lg:grid-cols-2'>
           <div>
@@ -32,6 +34,11 @@ const UserHome = () => {
           </div>
         </div>
       </div>
+
+      {/* Gallery Section */}
+      <hr className='text-slate-500' />
+      <Gallery />
+      {/* Footer Section */}
       <Footer />
     </div>
   );
