@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
+import { Button } from '../ui/button';
 import logo from '../../assets/logo.png';
 import { ModeToggle } from '../common/mode-toggle';
 
 const UserHeader = () => {
   return (
-    <div className='text-bold text-xl'>
-      <div className='flex items-center justify-between text-center h-20 px-4  bg-slate-300 dark:bg-slate-600'>
+    <div className='text-bold text-xl sticky top-0 z-50'>
+      <div className='flex items-center justify-between text-center h-20 px-4  bg-slate-300 dark:bg-slate-600 '>
         {/* Left section (Logo) */}
         <div className='flex items-center'>
           <Link to='/'>
@@ -22,9 +23,12 @@ const UserHeader = () => {
         </div>
 
         {/* Right section (Card) */}
-        <div className='flex items-center'>
+        {/* <div className='flex items-center'>
           <NavLink to='/card'>Card</NavLink>
-        </div>
+        </div> */}
+        <Button variant='outline' asChild className='flex items-center'>
+          <NavLink to='/card'>Card</NavLink>
+        </Button>
         {/* Dark Mode and Light Mode */}
         <div className='flex items-center px-4'>
           <ModeToggle />
