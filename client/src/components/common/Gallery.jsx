@@ -37,7 +37,7 @@ const Gallery = () => {
             <CarouselItem className='flex justify-center items-center'>
               <img
                 src={img}
-                width={'50%'}
+                width={'45%'}
                 height={'auto'}
                 alt='Carousel item 1'
                 className='object-contain'
@@ -46,7 +46,7 @@ const Gallery = () => {
             <CarouselItem className='flex justify-center items-center'>
               <img
                 src={img}
-                width={'50%'}
+                width={'45%'}
                 height={'auto'}
                 alt='Carousel item 2'
                 className='object-contain'
@@ -55,7 +55,7 @@ const Gallery = () => {
             <CarouselItem className='flex justify-center items-center'>
               <img
                 src={img}
-                width={'50%'}
+                width={'45%'}
                 height={'auto'}
                 alt='Carousel item 3'
                 className='object-contain'
