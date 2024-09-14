@@ -8,6 +8,7 @@ import {
 } from '@/components/ui/carousel';
 import img from '../../assets/hero.png';
 import { NavLink } from 'react-router-dom';
+import { Button } from '@/components/ui/button';
 
 const Gallery = () => {
   return (
@@ -17,12 +18,14 @@ const Gallery = () => {
           GALLERY
         </h1>
 
-        <NavLink
-          className=' text-4xl font-extrabold tracking-tight lg:text-5xl text-left m-2 p-10 hover:underline hover:text-yellow-500'
-          to={'/menu'}
-        >
-          MENU
-        </NavLink>
+        <Button className='lg:h-20 lg:w-25 lg:m-5 h-10 w-25 m-2'>
+          <NavLink
+            className=' text-4xl font-extrabold tracking-tight lg:text-5xl text-left m-2 p-10 hover:underline hover:text-yellow-500'
+            to={'/menu'}
+          >
+            MENU
+          </NavLink>
+        </Button>
         <Carousel
           opts={{
             align: 'start',
