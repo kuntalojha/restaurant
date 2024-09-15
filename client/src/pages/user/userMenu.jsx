@@ -1,6 +1,4 @@
 import React from 'react';
-import Footer from '@/components/common/Footer';
-import UserHeader from '@/components/user/userHeader';
 import {
   Card,
   CardContent,
@@ -14,7 +12,6 @@ import MenuImg from '../../assets/menu.png';
 const UserMenu = () => {
   return (
     <div>
-      <UserHeader />
       <div className='h-min lg:flex jitify-center'>
         <div className='p-10 '>
           <Card>
@@ -77,7 +74,6 @@ const UserMenu = () => {
           </Card>
         </div>
       </div>
-      <Footer />
     </div>
   );
 };

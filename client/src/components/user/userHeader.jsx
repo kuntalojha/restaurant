@@ -16,8 +16,15 @@ const UserHeader = () => {
         </div>
 
         {/* Center section (Nav Links) */}
-        <div className='flex items-center space-x-4 flex-grow justify-center'>
-          <NavLink to='/'>Home</NavLink>
+        <div className='flex items-center space-x-4 flex-grow justify-center '>
+          <NavLink
+            to='/'
+            className={({ isActive }) =>
+              isActive ? 'text-yellow-500' : 'text-white'
+            }
+          >
+            Home
+          </NavLink>
           <NavLink
             to='/menu'
             className={({ isActive }) =>
@@ -26,14 +33,15 @@ const UserHeader = () => {
           >
             Menu
           </NavLink>
-          <NavLink
+          {/* remove this for now */}
+          {/* <NavLink
             to='/gallery'
             className={({ isActive }) =>
               isActive ? 'text-yellow-500' : 'text-white'
             }
           >
             Gallery
-          </NavLink>
+          </NavLink> */}
         </div>
 
         {/* Right section (Card) */}

@@ -1,15 +1,10 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-
-import Footer from '@/components/common/Footer';
 import HeroImg from '../../assets/hero.png';
-import Gallery from '@/components/common/Gallery';
-import UserHeader from '@/components/user/userHeader';
 const UserHome = () => {
   return (
     <div>
-      <UserHeader />
       {/* Hero Section */}
       <div className='h-max overflow-hidden lg:ml-5 ml-0'>
         <div className='grid  max-w-screen-xl grid-cols-1 gap-8 px-8 py-16 lg:grid-cols-2'>
@@ -34,13 +29,6 @@ const UserHome = () => {
           </div>
         </div>
       </div>
-
-      {/* Gallery Section */}
-      <hr className='border-t-2 border-gray-300  mx-auto ' />
-
-      <Gallery />
-      {/* Footer Section */}
-      <Footer />
     </div>
   );
 };

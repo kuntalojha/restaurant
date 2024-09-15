@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Link, NavLink } from 'react-router-dom';
 import logo from '../../assets/logo.png';
-import { ModeToggle } from './mode-toggle';
+import { ModeToggle } from '../common/mode-toggle';
 
 const AdminHeader = () => {
   return (
