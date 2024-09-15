@@ -2,14 +2,16 @@ import React from 'react';
 import Footer from '@/components/common/Footer';
 import Header from '@/components/common/Header';
 
-const Home = () => {
+const AdminHome = () => {
   return (
-    <div className='h-screen bg-slate-300'>
+    <div className='h-screen '>
       <Header />
-      <h1>Home</h1>
+      <div>
+        <h1>Home</h1>
+      </div>
       <Footer />
     </div>
   );
 };
 
-export default Home;
+export default AdminHome;
