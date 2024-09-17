@@ -1,3 +1,20 @@
-{
-  
-}
+[
+  {
+    "image": "https://picsum.photos/seed/mVuHh8r/2720/1664",
+    "title": "Vesper debilito beneficium umquam statim.",
+    "category": "aveho",
+    "description": "Fresh mixed greens tossed with ginger-rubbed venison, raspberry, and a light dressing."
+  },
+  {
+    "image": "https://picsum.photos/seed/LJFUrYP2fZ/1306/1237",
+    "title": "Architecto excepturi distinctio tolero dignissimos.",
+    "category": "tertius",
+    "description": "Our fluffy rabbit, slow-cooked to perfection, accompanied "
+  },
+  {
+    "image": "https://picsum.photos/seed/AT16SjSiw/210/36",
+    "title": "Dignissimos vulariter error cicuta verbum.",
+    "category": "celebrer",
+    "description": "A robust tender stew featuring Parsi flavors, loaded with savory meat"
+  }
+]

@@ -10,7 +10,7 @@ const ChefHeader = () => {
       <div className='flex items-center justify-between text-center h-20 px-4'>
         {/* Left section (Logo) */}
         <div className='flex items-center'>
-          <Link to='/'>
+          <Link to='/chef'>
             <img src={logo} alt='Logo' width={30} height={30} />
           </Link>
         </div>
@@ -18,7 +18,7 @@ const ChefHeader = () => {
         {/* Center section (Nav Links) */}
         <div className='flex items-center space-x-4 flex-grow justify-center'>
           <NavLink
-            to='/'
+            to='/chef'
             className={({ isActive }) =>
               isActive ? 'text-yellow-500' : 'text-white'
             }
@@ -26,14 +26,14 @@ const ChefHeader = () => {
             Home
           </NavLink>
           <NavLink
-            to='/menu'
+            to='/chef/menu'
             className={({ isActive }) =>
               isActive ? 'text-yellow-500' : 'text-white'
             }
           >
             Menu
           </NavLink>
-          <NavLink to='/gallery'>Gallery</NavLink>
+          {/* <NavLink to='/gallery'>Gallery</NavLink> */}
         </div>
 
         {/* Right section (Card) */}

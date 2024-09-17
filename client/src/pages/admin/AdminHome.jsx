@@ -1,10 +1,11 @@
 import React from 'react';
+import Login from '../auth/Login';
 
 const AdminHome = () => {
   return (
     <div className='h-screen '>
       <div>
-        <h1>Home</h1>
+        <Login />
       </div>
     </div>
   );
