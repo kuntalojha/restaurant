@@ -1,79 +1,13 @@
 import React from 'react';
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from '@/components/ui/card';
+import MenuCard from '@/components/common/MenuCard';
 
-import MenuImg from '../../assets/menu.png';
 const UserMenu = () => {
   return (
-    <div>
-      <div className='h-min lg:flex jitify-center'>
-        <div className='p-10 '>
-          <Card>
-            <CardHeader>
-              <img src={MenuImg} alt='menu image' />
-              <CardTitle>Card Title</CardTitle>
-              <CardDescription>Card Description</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p>Card Content</p>
-            </CardContent>
-            <CardFooter>
-              <p>Card Footer</p>
-            </CardFooter>
-          </Card>
-        </div>
-        <div className='p-10 '>
-          <Card>
-            <CardHeader>
-              <img src={MenuImg} alt='menu image' />
-              <CardTitle>Card Title</CardTitle>
-              <CardDescription>Card Description</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p>Card Content</p>
-            </CardContent>
-            <CardFooter>
-              <p>Card Footer</p>
-            </CardFooter>
-          </Card>
-        </div>{' '}
-        <div className='p-10 '>
-          <Card>
-            <CardHeader>
-              <img src={MenuImg} alt='menu image' />
-              <CardTitle>Card Title</CardTitle>
-              <CardDescription>Card Description</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p>Card Content</p>
-            </CardContent>
-            <CardFooter>
-              <p>Card Footer</p>
-            </CardFooter>
-          </Card>
-        </div>{' '}
-        <div className='p-10 '>
-          <Card>
-            <CardHeader>
-              <img src={MenuImg} alt='menu image' />
-              <CardTitle>Card Title</CardTitle>
-              <CardDescription>Card Description</CardDescription>
-            </CardHeader>
-            <CardContent>
-              <p>Card Content</p>
-            </CardContent>
-            <CardFooter>
-              <p>Card Footer</p>
-            </CardFooter>
-          </Card>
-        </div>
-      </div>
+    <div className='grid grid-cols-1 gap-4 md:grid-cols-3 sm:grid-cols-2 lg:grid-cols-4'>
+      <MenuCard />
+      <MenuCard />
+      <MenuCard />
+      <MenuCard />
     </div>
   );
 };
