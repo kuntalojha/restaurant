@@ -1,7 +1,7 @@
+import ChefHeader from '@/components/chef/ChefHeader';
+import Footer from '@/components/common/Footer';
 import React from 'react';
-import ChefHeader from './ChefHeader';
 import { Outlet } from 'react-router-dom';
-import Footer from '../common/Footer';
 
 const ChefLayout = () => {
   return (

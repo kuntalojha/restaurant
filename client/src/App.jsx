@@ -1,15 +1,15 @@
 import './App.css';
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import UserLayout from './components/user/UserLayout';
+import UserLayout from './layout/UserLayout';
 import UserHome from './pages/user/UserHome';
 import UserMenu from './pages/user/UserMenu';
 import UserItem from './pages/user/UserItem';
 import UserCheckOut from './pages/user/UserCheckOut';
 import PageNotFount from './pages/common/PageNotFount';
 import ChefHome from './pages/chef/ChefHome';
-import ChefLayout from './components/chef/ChefLayout';
-import AdminLayout from './components/admin/AdminLayout';
+import ChefLayout from './layout/ChefLayout';
+import AdminLayout from './layout/AdminLayout';
 import AdminHome from './pages/admin/AdminHome';
 import ChefMenu from './pages/chef/ChefMenu';
 import ChefOrder from './pages/chef/ChefOrder';
