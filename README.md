@@ -2,51 +2,77 @@
 
 ## FILE STRUCTURE
 
+`─┐ ├── └── |`
+
 ```
 ├── client
 │   ├── node_modules
 │   ├── Public
-│   │   └── favicon.ico
+│   │   ├── hero.png
+│   │   ├── logo.png
+│   │   └── menu.png
 │   ├── src
+│   │   ├── api
+│   │   │    ├── card.js
+│   │   │    └── card.js
 |   │   ├── assets
-│   │   |    └── restaurant.png
+│   │   |    └── favicon.ico
 │   |   ├── components
 │   │   │     ├── admin
-│   │   │     |     └── AdminNav.jsx
-│   │   │     ├── chef
-│   │   │     |     └── ChefNav.jsx
-│   │   │     ├── common
+│   │   │     |     ├── AdminHader.jsx
+│   │   │     |     └── AdminProfile.jsx
+│   │   │     ├── auth
 │   │   │     |     ├── CheckAuth.jsx
+│   │   │     ├── chef
+│   │   │     |     ├── ChefHeader.jsx
+|   │   │     |     └── ChefProfile.jsx
+│   │   │     ├── common
 │   │   │     |     ├── Footer.jsx
 │   │   │     |     ├── Gallery.jsx
 │   │   │     |     ├── Header.jsx
-│   │   │     |     └── Profile.jsx
+│   │   │     |     └── MenuCard.jsx
 │   │   |     ├── ui
 │   │   │     |   ├── button.jsx
+│   │   │     |   ├── card.jsx
+│   │   │     |   ├── carousel.jsx
+│   │   │     |   ├── dropdown-menu.jsx
 │   │   │     |   ├── input.jsx
-│   │   │     |   ├── label.jsx
-│   │   │     |   └── text.jsx
+│   │   │     |   └── label.jsx
 |   |   |     └──user
 |   |   |          └── UserHeader.jsx
+|   |   ├── layout
+|   |   |    ├── AdminLayout.jsx
+|   |   |    ├── ChefLayout.jsx
+|   |   |    └── UserLayout.jsx
 |   |   ├── lib
 |   |   |    └── utils.js
 |   |   ├── pages
 |   |   |    ├── admin
-|   |   |    |    └── AdminDashboard.jsx
+|   |   |    |    ├── AdminDashboard.jsx
+|   |   |    |    └── AdminHome.jsx
 |   |   |    ├── auth
 |   |   |    |    ├── Login.jsx
 |   |   |    |    └── Registration.jsx
 |   |   |    ├── chef
+|   |   |    |    ├── ChefHome.jsx
 |   |   |    |    └── ChefOrders.jsx
 |   |   |    ├── common
-|   |   |    |     ├── Home.jsx
-|   |   |    |     |── NotFoundPage.jsx
+|   |   |    |     ├── Menu.jsx
+|   |   |    |     |── PageNotFound.jsx
 |   |   |    |     └── PaymentGateway.jsx
 |   |   |    └── user
 |   |   |         |── UserCheckOut.jsx
 |   |   |         |── UserHome.jsx
-|   |   |         |── UserItem.jsx
-|   |   |         └── UserMenu.jsx
+|   |   |         └── UserItem.jsx
+|   |   |
+|   |   ├── routes
+|   |   |    ├── AdminRoute.jsx
+|   |   |    ├── ChefRoute.jsx
+|   |   |    └── UserRoute.jsx
+|   |   |
+|   |   ├── theme
+|   |   |    ├── mode-toggle.jsx
+|   |   |    └── theme-provider.jsx
 |   |   ├── App.css
 |   |   ├── App.jsx
 |   |   ├── index.css
@@ -68,7 +94,8 @@
 ├── server
 |   ├── controllers
 |   │     ├── menu
-|   │     │     ├── controller.RestaurantMenu.js
+|   │     │     └──  ControllerMenu.js
+|   │     |
 |   │     └── order
 |   │         ├── user
 |   │              └── controller.RestaurantOrder.js
@@ -78,15 +105,30 @@
 |   |     └── connectionDB.js
 |   ├── modules
 |   |     ├── manu
-|   |     |   └── model.RestaurantMenu.js
+|   |     |   └── ModelMenu.js
+|   |     |
 |   |     └── order
 |   |         └── user
 |   |              └── model.UserOrders.js
+|   |
+|   ├── node_modules
+|   │     
+|   |
 |   ├── routes
 |   │     ├── menu
-|   │     │     └── router.RestaurantMenu.js
+|   │     │     └── RouteMenu.js
+|   │     |
 |   │     └── order
-|   │.env
+|   │         
+|   │
+|   ├── .env
+|   ├── package-lock.json
+|   ├── package.json
 |   └── server.js
+|
+|
+├── .gitignore
+└── README.md
+
 
 ```
