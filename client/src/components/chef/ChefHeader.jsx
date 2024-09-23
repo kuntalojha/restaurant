@@ -11,7 +11,7 @@ const ChefHeader = () => {
         {/* Left section (Logo) */}
         <div className='flex items-center'>
           <Link to='/chef'>
-            <img src={logo} alt='Logo' width={30} height={30} />
+            <img src='logo.png' alt='Logo' width={30} height={30} />
           </Link>
         </div>
 

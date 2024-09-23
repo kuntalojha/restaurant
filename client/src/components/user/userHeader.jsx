@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { Button } from '../ui/button';
-import logo from '../../assets/logo.png';
+// import logo from '../../assets/logo.png';
 import { ModeToggle } from '../../theme/mode-toggle';
 
 const UserHeader = () => {
@@ -11,7 +11,7 @@ const UserHeader = () => {
         {/* Left section (Logo) */}
         <div className='flex items-center'>
           <Link to='/'>
-            <img src={logo} alt='Logo' width={30} height={30} />
+            <img src='logo.png' alt='Logo' width={30} height={30} />
           </Link>
         </div>
 

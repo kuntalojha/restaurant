@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import HeroImg from '../../assets/hero.png';
+// import HeroImg from '../../assets/hero.png';
 const UserHome = () => {
   return (
     <div>
@@ -25,7 +25,7 @@ const UserHome = () => {
             </Button>
           </div>
           <div className='flex justify-center animate-spin-slow hover:animate-none'>
-            <img src={HeroImg} alt='Hero Image' width={'80%'} height={'auto'} />
+            <img src='hero.png' alt='Hero Image' width={'80%'} height={'auto'} />
           </div>
         </div>
       </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Link, NavLink } from 'react-router-dom';
-import logo from '../../assets/logo.png';
+// import logo from '../../assets/logo.png';
 import { ModeToggle } from '@/theme/mode-toggle';
 
 const AdminHeader = () => {
@@ -11,7 +11,7 @@ const AdminHeader = () => {
         {/* Left section (Logo) */}
         <div className='flex items-center'>
           <Link to='/admin'>
-            <img src={logo} alt='Logo' width={30} height={30} />
+            <img src='logo.png' alt='Logo' width={30} height={30} />
           </Link>
         </div>
 

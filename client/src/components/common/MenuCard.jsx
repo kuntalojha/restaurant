@@ -5,10 +5,10 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card';
-import MenuImg from '../../assets/menu.png';
+// import MenuImg from '../../assets/menu.png';
 import { Button } from '../ui/button';
 
-const image = MenuImg;
+// const image = MenuImg;
 const title = 'Vesper debilito beneficium umquam statim.';
 const description =
   'Fresh mixed greens tossed with ginger-rubbed venison, raspberry, and a light dressing.';
@@ -18,7 +18,7 @@ const MenuCard = () => {
     <div className='flex justify-center p-10'>
       <Card>
         <CardHeader>
-          <img src={image} alt='menu image' />
+          <img src='menu.png' alt='menu image' />
           <CardTitle>{title}</CardTitle>
           <CardDescription>{description}</CardDescription>
         </CardHeader>

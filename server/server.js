@@ -36,6 +36,7 @@ app.use(
 
 // Routes
 import menu from './routes/RouteMenu.js';
+// :3000/menu/getmenus
 app.use('/menu', menu);
 
 // Start the server

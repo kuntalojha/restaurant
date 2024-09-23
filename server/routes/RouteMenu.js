@@ -1,10 +1,9 @@
 import express from 'express';
-import { getMenus, getMenu } from '../controllers/ControllerMenu.js';
+import { getMenus } from '../controllers/ControllerMenu.js';
 
 const router = express.Router();
 
-// get all menus
+// Get all menus Route
 router.get('/getMenus', getMenus);
-// get menu by id
-// router.get('/getMenu/', getMenu);
+
 export default router;
